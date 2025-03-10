@@ -11,25 +11,25 @@ nav {
     font-style: unset;
 }
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        padding: 5px 5px;
-        border-right: 1px solid white;
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-right: 1px solid white;
+}
 
-        nav a:hover {
-            background-color: dimgrey;
-        }
+nav a:hover {
+    background-color: dimgrey;
+ }
 
-        nav a:last-child {
-            border-right: none;
-        }
+nav a:last-child {
+    border-right: none;
+}
 
-        nav a.active {
-            background-color: blue;
-            color: white;
-        }
+nav a.active {
+    background-color: blue;
+    color: white;
+}
 
 /*Content*/
 section {
@@ -39,10 +39,10 @@ section {
     background-color: white;
 }
 
-    section h2 {
-        text-align: Left;
-        margin-top: auto;
-    }
+section h2 {
+    text-align: Left;
+    margin-top: auto;
+}
 
 /*Background*/
 .background {
@@ -51,21 +51,21 @@ section {
     justify-content: flex-start;
 }
 
-    .background p {
-        margin-top: 5px;
-    }
+.background p {
+    margin-top: 5px;
+}
 
-    .background img {
-        width: 150px;
-        height: auto;
-        object-fit: cover;
-        margin-right: 15px;
-        transition: transform 0.5s;
-    }
+.background img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 15px;
+    transition: transform 0.5s;
+}
 
-        .background img:hover {
-            transform: scaleX(-1);
-        }
+.background img:hover {
+    transform: scaleX(-1);
+}
 
 /*Hobbies*/
 .hobbies {
@@ -75,21 +75,21 @@ section {
     width: 100%;
 }
 
-    .hobbies p {
-        margin-top: 5px;
-    }
+.hobbies p {
+    margin-top: 5px;
+}
 
-    .hobbies img {
-        width: 150px;
-        height: auto;
-        object-fit: cover;
-        margin-left: auto;
-        transition: transform 0.5s;
-    }
+.hobbies img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-left: auto;
+    transition: transform 0.5s;
+}
 
-        .hobbies img:hover {
-            transform: scaleX(-1);
-        }
+.hobbies img:hover {
+    transform: scaleX(-1);
+}
 
 /*Flip Image*/
 .flip-img {
@@ -99,9 +99,9 @@ section {
     transition: transform 0.5s;
 }
 
-    .flip-img:hover {
-        transform: scaleX(-1);
-    }
+.flip-img:hover {
+    transform: scaleX(-1);
+}
 
 /*Module*/
 table {
@@ -109,6 +109,6 @@ table {
     margin-top: 5px;
 }
 
-    table th, table td {
-        text-align: center;
-    }
+table th, table td {
+    text-align: center;
+ }
